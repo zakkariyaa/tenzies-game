@@ -56,10 +56,9 @@ const Home = ({ allNewDice, generateNewDice }) => {
 }
 
 const Container = styled.main`
-  margin: 0 auto;
   background-color: #F5F5F5;
-  width: 600px;
-  height: 500px;
+  width: 50vw;
+  height: 60vh;
   border-radius: 2rem;
   display: grid;
   place-items: center;
