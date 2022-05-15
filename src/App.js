@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { nanoid } from 'nanoid'
+import Home from './components/Home'
 
-function App() {
+const App = () => {
+  const generateNewDice = () => {
+    return ({ value: Math.ceil(Math.random() * 6), isHeld: false, id: nanoid() })
+  }
+
+  const allNewDice = () => {
+    const randomElements = []
+    for (let i = 1; i <= 10; i++) {
+      randomElements.push(generateNewDice())
+    }
+    return randomElements
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Home
+      allNewDice={allNewDice}
+      generateNewDice={generateNewDice}
+    />
+  )
 }
 
-export default App;
+export default App
