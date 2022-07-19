@@ -62,6 +62,7 @@ const Container = styled.main`
   border-radius: 2rem;
   display: grid;
   place-items: center;
+  gap: 1rem;
   h1 {
     font-size: 2rem;
     margin: 0;
@@ -71,6 +72,21 @@ const Container = styled.main`
     margin-top: 0;
     text-align: center;
   }
+
+  @media (max-width: 850px) {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem;
+    p {
+        font-weight: 500;
+    }
+  }
+
+  @media (max-width: 550px) {
+    width: 80%;
+    padding: 1rem;
+  }
+
 `
 
 const Dices = styled.section`
@@ -78,6 +94,11 @@ const Dices = styled.section`
   grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
   place-items: center;
+
+  @media (max-width: 650px) {
+    gap: 0.9rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
 `
 
 export default Home

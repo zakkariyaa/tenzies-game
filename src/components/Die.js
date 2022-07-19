@@ -20,6 +20,19 @@ const Container = styled.div`
   border: 1px solid gainsboro;
   border-radius: 0.7rem;
   cursor: pointer;
+
+  @media (max-width: 1120px) {
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+
+  @media (max-width: 850px) {
+    padding: 1rem;
+  }
+
+  @media (max-width: 650px) {
+    padding: 0.7rem;
+  }
 `
 
 export default Die
