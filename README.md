@@ -30,7 +30,7 @@ This is a hobby project made with reactjs [Project website](https://tenzidice.ne
 <br />
 <br />
 <h2>Other Projects:</h2>
-<p>A poetry reading website made with Reactjs https://murti.netlify.app/ .</p>
-<p>Video to gif converter website made with Reactjs & Nodejs https://gifyvideo.netlify.app/ .</p>
-<p>Tesla website clone made with Reactjs https://app-tesla-clone.netlify.app/ .</p>
-<p>Convert your videos into audio with ease https://video-converterr.netlify.app/ .</p>
+<p>A poetry reading website made with Reactjs https://github.com/zakkariyaa/suugaan .</p>
+<p>Fruit shop https://github.com/zakkariyaa/fruit-shop</p>
+<p>Video to gif converter website made with Reactjs & Nodejs https://github.com/zakkariyaa/gif-maker .</p>
+<p>A tribute webpage to Carl Sagan https://github.com/zakkariyaa/tribute-page .</p>
