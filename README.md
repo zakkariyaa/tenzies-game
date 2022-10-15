@@ -1,6 +1,6 @@
 # Tenzies Game
 
-This is a hobby project made with reactjs [Project website](https://tenzies-dice.netlify.app/).
+This is a hobby project made with reactjs [Project website](https://tenzidice.netlify.app/).
 
 <img src="https://raw.githubusercontent.com/zakkariyaa/tenzies-game/db9fb6c857847c3508c4273b28ed375f90babbd3/src/assets/tenzi-react.png?raw=true" alt="Tenzies Game" height="522px" width="100%" />
 
